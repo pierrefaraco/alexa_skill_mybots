@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "annule"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "aide"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "MY_QUERY",
+              "type": "AMAZON.Person"
+            }
+          ],
+          "name": "ChatIntent",
+          "samples": [
+            "{MY_QUERY}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "requete assistant"
+    }
+  }
+}
