@@ -1,2 +1,0 @@
-# alexa_skill_mybots
-alexa_skill_mybots
